@@ -1,0 +1,36 @@
+.app-main-container {
+  .header-card {
+    height: 6rem;
+    width: calc(100vw - 8rem);
+    background-color: #e1f2ee;
+
+    .header-card-content {
+      font-weight: 400;
+      font-size: 3rem;
+
+      .header-box {
+        display: flex;
+        flex-direction: row;
+
+        .header-button {
+          margin-left: auto;
+          height: fit-content;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+
+  .info-card {
+    height: 10rem;
+    width: 20rem;
+    //background-color: #f5f5f5;
+    background-color: #e1f2ee;
+    margin-right: 2rem;
+
+    .info-card-content {
+      font-weight: 300;
+      font-size: 2rem;
+    }
+  }
+}

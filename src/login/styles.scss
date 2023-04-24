@@ -1,0 +1,69 @@
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#00b4e5, white, #00b4e5);
+  height: 100vh;
+
+  .login-form-wrapper {
+    height: 90vh;
+    width: 30vw;
+    background-image: linear-gradient(yellow, white, yellow);
+    box-shadow: 0 0.2rem 1rem 0.04rem grey;
+    border-radius: 0.5rem;
+
+    .login-form-container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .heading {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 20vh;
+        width: 28vw;
+        margin-top: 0.5rem;
+
+        .heading-text {
+          padding: auto;
+          margin-top: 3.5rem;
+          font-size: 4rem;
+          font-weight: 1000;
+        }
+      }
+      .welcome {
+        font-weight: 600;
+        font-size: large;
+      }
+      .info {
+        font-size: large;
+      }
+      .error-message {
+        color: red;
+        margin-left: 1rem;
+        margin-top: -0.2rem;
+      }
+      .forget-password {
+        font-size: small;
+        margin-left: 1rem;
+        margin-top: -0.2rem;
+        cursor: pointer;
+      }
+      .forget-password-info {
+        font-size: small;
+        margin-bottom: 1rem;
+      }
+      .back {
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.login-form-row {
+  padding: 0.8rem;
+  &.input-field {
+    width: 25ch;
+  }
+}

@@ -1,0 +1,19 @@
+.input-field {
+  width: 25ch;
+}
+.form-input {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 2rem;
+  .form-input-label {
+    font-weight: 500;
+    width: 4rem;
+  }
+  .form-input-field {
+    width: 32ch;
+  }
+}
+.required {
+  color: maroon;
+}
